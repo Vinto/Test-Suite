@@ -42,9 +42,13 @@ Selenium.prototype.doTypeRandomEmail = function(locator) {
 Using User-Extensions With Selenium-IDE
 Create your user extension and save it as user-extensions.js. While this name isn’t technically necessary, it’s good practice to keep things consistent.
 Open Firefox and open Selenium-IDE.
+
 1) Click on Tools, Options
+
 2) In Selenium Core Extensions click on Browse and find the user-extensions. js file. Click on OK.
+
 3) Your user-extension will not yet be loaded, you must close and restart Selenium-IDE.
+
 4) In your empty test, create a new command, your user-extension should now be an options in the Commands dropdown.
 
 Visit http://www.seleniumhq.org/docs/08_user_extensions.jsp for more information.
