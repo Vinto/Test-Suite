@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://new.staging.mukuru.com/" />
+<title>New Mukuru</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Mukuru</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=h1.inline</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=username</td>
+	<td>vinsent@yahoo.co.uk</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>general_7</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.button.green</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Rand Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>70</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=add_to_basket</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=add_to_basket</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=add_to_basket</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=existing-recipient</td>
+	<td>label=Add a New Recipient</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=fullname</td>
+	<td>selenese test2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email</td>
+	<td>selenese@mukuru.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mobile_number</td>
+	<td>7795718409</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=existing_details</td>
+	<td>label=New Details</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=bank_id</td>
+	<td>label=CBZ (Commercial Bank Zimbabwe)</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=branch_id</td>
+	<td>label=Harare Newlands</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=gateway_id</td>
+	<td>label=Debit/Credit Card</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;3&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=choose_card</td>
+	<td>label=Add new card</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;add&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=name</td>
+	<td>vinsent rontest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=card_number</td>
+	<td>5555555555554444</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=issue_number</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=expiry_month</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=expiry_year</td>
+	<td>label=2016</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cv2</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>general_7</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>chooseOkOnNextConfirmation</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//section[2]/div/div/h1</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

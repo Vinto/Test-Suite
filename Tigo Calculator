@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://staging.tigosend.com/" />
+<title>Tigo Calculator</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Tigo Calculator</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Australia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Aussie Dollar Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Australia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Aussie Dollar Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Austria</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Austrian Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Austria</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Austrian Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Belgium</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Belgian Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Belgium</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Belgian Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Colombia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Colombian Pesos Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Colombia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Colombian Pesos Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Finland</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Finnish Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Finland</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Finnish Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=France</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=French Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=France</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=French Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Germany</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=German Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Germany</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=German Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Ireland</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Irish Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Ireland</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Irish Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Italy</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Italian Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Italy</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Italian Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Netherlands</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Dutch Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Netherlands</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Dutch Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=New Zealand</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=New Zealand Dollar Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=New Zealand</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=New Zealand Dollar Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Poland</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Polish Zloty Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=destination_country_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Poland</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Polish Zloty Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Slovakia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Slovakian Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Slovakia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Slovakian Euro Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=South Africa</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=South Africa Rand Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=South Africa</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=South Africa Rand Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Tanzania</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Tigo Pesa Credit</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Tanzania</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Tigo Pesa Credit</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=United Kingdom</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=UK Pound Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=United Kingdom</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=UK Pound Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://staging.lbcsendmoney.com/" />
+<title>LBC 4 digits Calculator</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">LBC 4 digits Calculator</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=h1.inline</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=username</td>
+	<td>kssqwxhb@mukurutest.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>general_7</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.button.green</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=LBC PhP Peso Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=p.price</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=add_to_basket</td>
+	<td></td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/LBC Calculator/LBC-4-digits.png</td>
+	<td></td>
+</tr>
+<!--User should be assigned a Historic trust Role to pass -->
+<tr>
+	<td>clickAndWait</td>
+	<td>name=add_to_basket</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=existing-recipient</td>
+	<td>label=Cherish Chitekwe (+6377560123)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=existing_details</td>
+	<td>label=Bank Name: Allied Bank, Account Number: 253698774142, Bank Branch: vineyard</td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/LBC Calculator/LBC-4-digits-checkout.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=choose_card</td>
+	<td>label=Visa Credit Card 1111</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cv2</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>general_7</td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/LBC Calculator/LBC-4-digits-checkout1.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='section-customer']/div/h1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=logout now</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

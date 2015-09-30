@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://staging2.mukuru.com/" />
+<title>Mukuru Calculator</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Mukuru Calculator</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://www.google.com</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>http://staging2.mukuru.com/callcentre</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Kenya</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Ksh Wallet Topup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Kenya</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Ksh Wallet Topup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Kenya</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Ksh Wallet Topup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Malawi</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Kwacha Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Malawi</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Kwacha Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Malawi</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Kwacha Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Malawi</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Kwacha Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=South Africa</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=South Africa Rand Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=South Africa</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=South Africa Rand Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=South Africa</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=South Africa Rand Bank Transfer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zambia</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=currency_id</td>
+	<td>label=Choose receipt method</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Zambian Kwacha Bank Topup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zambia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Zambian Kwacha Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zambia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Zambian Kwacha Bank Topup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zambia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Zambian Kwacha Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zambia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Zambian Kwacha Bank Topup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zambia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Zambian Kwacha Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=currency_id</td>
+	<td>label=Choose receipt method</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=ZAR Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/Mukuru Calculator/ZAR Cash Collection.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=ZAR Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Textacash Top Up</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/Mukuru Calculator/US$ Textacash Top Up.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/Mukuru Calculator/US$ Cash Collection.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=Canada ($)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Bank Top Up</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/Mukuru Calculator/US$ Bank Top Up.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=ZAR Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/Mukuru Calculator/ZAR Cash Collection.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Textacash Top Up</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/home/vinsent/Desktop/Test Suite/Screenshots/Mukuru Calculator/US$ Cash Collection.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Bank Top Up</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=ZAR Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Textacash Top Up</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Cash Collection</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=United Kingdom (£)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Zimbabwe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=US$ Bank Top Up</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.has-tip</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

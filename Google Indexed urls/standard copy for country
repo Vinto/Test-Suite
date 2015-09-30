@@ -1,0 +1,2087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://new.staging.mukuru.com/" />
+<title>standard copy for country</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">standard copy for country</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://www.google.com</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/australia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Australia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Australia as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/austria</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Austria</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Austria as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/bahrain</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Bahrain</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Bahrain as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/bangladesh</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Bangladesh</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Bangladesh as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/barbados</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Barbados</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Barbados as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/belgium</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Belgium</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Belgium as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/canada</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Canada</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Canada as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/china</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>China</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to China as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/croatia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Croatia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Croatia as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/czech-republic</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Czech Republic</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Czech Republic as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/denmark</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Denmark</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Denmark as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/egypt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Egypt</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Egypt as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/estonia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Estonia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Estonia as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/fiji</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Fiji</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Fiji as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/finland</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Finland</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Finland as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/france</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>France</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to France as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/germany</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Germany</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Germany as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/ghana</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Ghana</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Ghana as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/greece</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Greece</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Greece as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/hong-kong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Hong Kong</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Hong Kong as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/hungary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Hungary</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Hungary as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/iceland</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Iceland</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Iceland as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/india</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>India</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to India as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/ireland</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Ireland</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Ireland as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/israel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Israel</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Israel as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/italy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Italy</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Italy as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/jamaica</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Jamaica</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Jamaica as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/japan</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Japan</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Japan as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/jordan</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Jordan</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Jordan as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/kenya</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Kenya</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Kenya as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/kuwait</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Kuwait</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Kuwait as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/latvia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Latvia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Latvia as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/lithuania</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Lithuania</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Lithuania as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/mauritius</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Mauritius</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Mauritius as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/mexico</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Mexico</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Mexico as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/montenegro</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Montenegro</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Montenegro as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/morocco</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Morocco</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Morocco as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/netherlands</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Netherlands</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Netherlands as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/new-zealand</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>New Zealand</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to New Zealand as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/norway</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Norway</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Norway as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/oman</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Oman</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Oman as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/pakistan</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Pakistan</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Pakistan as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/philippines</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Philippines</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Philippines as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/poland</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Poland</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Poland as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/qatar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Qatar</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Qatar as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/romania</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Romania</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Romania as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/saudi-arabia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Saudi Arabia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Saudi Arabia as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/singapore</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Singapore</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Singapore as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/slovakia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Slovakia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Slovakia as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/slovenia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Slovenia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Slovenia as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/sri-lanka</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Sri Lanka</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Sri Lanka as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/sweden</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Sweden</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Sweden as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/tanzania</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Tanzania</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Tanzania as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/thailand</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Thailand</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Thailand as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/trinidad-and-tobago</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Trinidad and Tobago</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Trinidad and Tobago as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/tunisia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Tunisia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Tunisia as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/turkey</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Turkey</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Turkey as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/uganda</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>Uganda</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to Uganda as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/united-kingdom</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/h1</td>
+	<td>We have upgraded</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.subheader</td>
+	<td>United Kingdom</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.subheader</td>
+	<td>Thank you for visiting the new Mukuru platform.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/p</td>
+	<td>Unfortunately, we no longer offer money transfers to United Kingdom as part of our new service.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>We still send money to many other parts of the world.</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

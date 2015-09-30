@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://forest.staging.remitix.com/" />
+<title>Forest Countries</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Forest Countries</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=source_currency_id</td>
+	<td>label=European Union (€)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=destination_country_id</td>
+	<td>label=Austria</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=currency_id</td>
+	<td>label=Bank Topup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=input</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=calculate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.to</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=add_to_basket</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=fullname</td>
+	<td>sandra bullock</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email</td>
+	<td>sandra.bullock@mukurutest.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mobile_number</td>
+	<td>7795718044</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=existing_details</td>
+	<td>label=New Details</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=custom_field_0</td>
+	<td>5623562</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=custom_field_1</td>
+	<td>PSSAATWW</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//form[@id='checkout-gateway']/fieldset[2]/legend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=name</td>
+	<td>vinny da vin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=card_number</td>
+	<td>5555555555554444</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=issue_number</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=expiry_month</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=expiry_year</td>
+	<td>label=2016</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cv2</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>general_7</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=span.success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Send Money</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
