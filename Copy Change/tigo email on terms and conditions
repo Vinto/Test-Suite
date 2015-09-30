@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://staging.tigosend.com/" />
+<title>tigo email on terms and conditions</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">tigo email on terms and conditions</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=support@sendmoney.tigo.com</td>
+	<td>support@sendmoney.tigo.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Terms</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>@tigosend.com</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'support@sendmoney.tigo.com')])[2]</td>
+	<td>support@sendmoney.tigo.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Privacy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>@tigosend.com</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=support@sendmoney.tigo.com</td>
+	<td>support@sendmoney.tigo.com</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

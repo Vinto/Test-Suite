@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://admin-staging.remitix.com/" />
+<title>Admin-staging Remitix</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Admin-staging Remitix</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/login/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=remitixLogo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=small</td>
+	<td>Copyright © 2008 - 2015 Remitix Ltd</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=username</td>
+	<td>vinsent.staffremitix@mukuru.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>general_7</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=button_login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=remitixLogo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Vinsent Staff Remitix</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Vinsent Staff Remitix</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='coreFrame']/div/div/div[3]/div/div[2]/h3[2]</td>
+	<td>Date Joined</td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=span=regexp:PLEASE NOTE:*</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign Out</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
